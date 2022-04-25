@@ -31,8 +31,9 @@ Instrumentation for the R2DBC Proxy framework components
 ### List of Metrics,Events,Logs,Traces
 |Name | Type | Description |
 |:-:|:-:|:-:|
-|Java/oracle.r2dbc.impl.OracleStatementImpl/execute | Metric| Traces of oracle.r2dbc.impl.OracleStatementImpl execute method|
-|Oracle Database SQL | Metric| Captures SQL calls to Oracle via R2DBC|
+|Custom/R2DBC/Proxy/BatchCallbackHandler/invoke | Metric| Traces of io.r2dbc.proxy.callback.StatementCallbackHandler invoke method|
+|Custom/R2DBC/Proxy/ResultCallbackHandler/invoke | Metric| Traces of io.r2dbc.proxy.callback.StatementCallbackHandler invoke method|
+|Custom/R2DBC/Proxy/StatementCallbackHandler/invoke | Metric| Traces of io.r2dbc.proxy.callback.StatementCallbackHandler invoke method|
 
 
 ## Installation
